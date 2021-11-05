@@ -45,8 +45,45 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 0 28.5px 0 28.5px;
+    box-sizing: border-box;
 }
 
+.searchbox_inner{
+    width: 300px;
+    height: 42px;
+    padding: 0 0.35rem 0  0.2rem;
+    border-radius: 20px;
+    border: 0.0625rem solid #757575;
+    padding-left: 25px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.searchbox_inner span{
+    position: relative;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox_inner input{
+    width: 213px;
+    height: 40px;
+    overflow: hidden;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+   
+}
+
+.diormain{
+    flex-basis: 20%;
+}
 .diormain svg{
     width: 120px;
     height: 90px;
@@ -58,6 +95,165 @@ img{
 }
 
 .diorother{
+    width: 108px;
+    height: 26px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
+
+.diorother svg{
+    width: 26px;
+    height: 26px;
+}
+
+.headerfooter{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e5e5e5e5;
+    font-size: 13px;
+}
+
+.headerfooter li{
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 744px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+.main img{
+    max-width: 100% ;
+}
+
+.main h3{
+    padding-top: 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.main h1{
+    padding-left: 4px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main1{
+    width: 100%;
+    height: 744px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+.main1 h3{
+    padding-top: 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.main1 h1{
+    padding-left: 4px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.main1 img{
+    width: 100%;
+    height: 598px;
+}
+
+.enter{
+    width: 225px;
+    height: 48px;
+    padding: 0 32px 0 32px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutique{
+    width: 100%;
+    height: 341px;
+    background-image: url(https://www.dior.com/couture/var/dior/storage/images/horizon/store-locator-banner-onedior/14406305-114-kor-KR/store-locator-banner-onedior2_1440_1200.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutiquesearch{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.boutiqueinput{
+    width: 427px;
+    height: 61px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    padding: 8px 0 8px 25px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+
+.boutiqueinput input{
+    width: 360px;
+    height: 43px;
+    border: none;
+    
+}
+
+.inputimg{
+  width: 70px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 28px 28px 0;
+  position: relative;
+  top: -8px;
+  left: 1.2px;
+}
+
+.service{
+    width: 100%;
+    height: 431px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+
+.servicecontent{
+    display: block;
+    float: left;
+}
+.servicecontent svg{
+    width: 36px;
+    height: 36px;
+    color: white;
+}
+
+
+
